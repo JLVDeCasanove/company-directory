@@ -1,0 +1,31 @@
+html,
+body {
+  background-color: #f9f6ee;
+  margin: 5px 0px 5px 2px;
+  padding: 5px 0px 5px 2px;
+  overflow: hidden;
+}
+
+section {
+  display: flex;
+  flex-flow: column;
+  height: calc(100vh - 20px);
+}
+
+.tab-content {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+tr {
+  cursor: default;
+}
+
+.myBtn {
+  width: 70px;
+}
+
+.add-info-icon {
+  min-width: 20px;
+  text-align: center;
+}
